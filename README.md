@@ -1,9 +1,9 @@
 # rails-skeleton
 I think most of us will use the same gems every time we start our Rails project. This repo is build to skip the steps to setup our Rails project with commonly used gems. This is an opinionated project and made assumption about the style and workflow when developing the Rails app.
 
-# README
+## What's Included
 
-What's included in the initial setup?
+The following gems are installed with this Skeleton:
 
 * rspec-rails 3.6.0
 * factory_girl_rails 4.8.0
@@ -16,3 +16,20 @@ What's included in the initial setup?
 * awesome_print 1.8.0
 * devise 4.3.0
 * rails 5.1.2
+
+## Getting Started
+1. Install Rails at the command prompt if you haven't yet:
+
+
+    $ gem install rails
+
+2. At the command prompt, clone Skeleton to your desktop:
+
+
+    $ git clone https://github.com/nurulazradm/rails-skeleton.git myapp
+
+   where "myapp" is the application name
+
+### Disclaimer
+
+This app will still be using `Skeleton` as module name as you can see in `config/application.rb`.
