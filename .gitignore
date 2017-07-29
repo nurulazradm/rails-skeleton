@@ -1,8 +1,6 @@
 *.rbc
 capybara-*.html
 .rspec
-/log
-/tmp
 /db/*.sqlite3
 /db/*.sqlite3-journal
 /public/system
@@ -40,5 +38,13 @@ bower.json
 # Ignore pow environment settings
 .powenv
 
-# Ignore Byebug command history file.
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+/node_modules
+/yarn-error.log
+
 .byebug_history
