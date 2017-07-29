@@ -41,6 +41,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'pry-nav'
   gem 'pry-rails'
+  gem 'awesome_print'
 end
 
 group :development do
