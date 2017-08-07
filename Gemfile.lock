@@ -84,6 +84,7 @@ GEM
       responders
       warden (~> 1.2.3)
     diff-lcs (1.3)
+    docile (1.1.5)
     erubi (1.6.1)
     execjs (2.7.0)
     factory_girl (4.8.0)
@@ -191,6 +192,11 @@ GEM
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
     simple_bdd (0.1.0)
+    simplecov (0.14.1)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.1)
     slop (3.6.0)
     spring (2.0.2)
       activesupport (>= 4.2)
@@ -250,6 +256,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   shoulda-matchers!
   simple_bdd
+  simplecov
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
