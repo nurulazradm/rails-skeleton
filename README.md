@@ -1,4 +1,4 @@
-# rails-skeleton
+# rails-skeleton [![Build Status](https://travis-ci.org/nurulazradm/rails-skeleton.svg?branch=master)](https://travis-ci.org/nurulazradm/rails-skeleton)
 I think most of us will use the same gems every time we start our Rails project. This repo is build to skip the steps to setup our Rails project with commonly used gems. This is an opinionated project and made assumption about the style and workflow when developing the Rails app.
 
 ## What's Included
