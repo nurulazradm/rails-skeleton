@@ -30,6 +30,13 @@ The following gems are installed with this Skeleton:
 
    where "myapp" is the application name
 
+## Troubleshoot
+1. Install qmake using `brew install qt`
+   
+    $ echo 'export PATH="/usr/local/opt/qt/bin:$PATH"' >> ~/.zshrc
+
+   ref: https://github.com/thoughtbot/capybara-webkit/wiki/Installing-Qt-and-compiling-capybara-webkit#macOS-mojave-1014
+
 ### Disclaimer
 
 This app will still be using `Skeleton` as module name as you can see in `config/application.rb`.
