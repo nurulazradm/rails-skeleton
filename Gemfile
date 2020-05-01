@@ -35,11 +35,9 @@ group :development do
 end
 
 group :test do
-  # gem 'capybara-email'
-  # gem 'capybara-webkit'
   gem 'capybara', '~> 3.32', '>= 3.32.1'
   gem 'database_cleaner'
-  gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git', branch: 'rails-5'
+  gem 'shoulda-matchers', '~> 4.3'
   gem 'simple_bdd'
   gem 'simplecov', require: false
 end
